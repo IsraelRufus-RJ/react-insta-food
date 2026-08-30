@@ -1,0 +1,23 @@
+{
+  "name": "insta-food",
+  "version": "1.0.0",
+  "description": "a food ordering application",
+  "homepage": "https://github.com/IsraelRufus-RJ/react-insta-food#readme",
+  "bugs": {
+    "url": "https://github.com/IsraelRufus-RJ/react-insta-food/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IsraelRufus-RJ/react-insta-food.git"
+  },
+  "license": "ISC",
+  "author": "israel rufus",
+  "type": "commonjs",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  }
+}
