@@ -14,6 +14,8 @@
   "author": "israel rufus",
   "type": "commonjs",
   "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "devDependencies": {
@@ -22,5 +24,7 @@
   "dependencies": {
     "react": "^19.2.8",
     "react-dom": "^19.2.8"
-  }
+  },"browserslist":[
+    "last 3 versions"
+  ]
 }
