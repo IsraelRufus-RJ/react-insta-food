@@ -1,6 +1,3 @@
-#heading{
-    color: rgb(166, 103, 1);
-}
 
 *{
     padding: 0;
@@ -9,33 +6,101 @@
 }
 
 body{
-    background-color: rgb(243, 243, 244);
-    
+    background-color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
-.cards{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-}
 
-.card img{
-    border-radius: 10px;
-    
-}
-
-.card{
-    font-size: 17px;
-    margin: 10px;
-    min-width: 350px;
-    max-width: 250px;
-    border: 2px solid white;
-    padding: 10px;
-    border-radius: 5px;
-    background-color: white;
-    box-shadow: 2px 8px 20 rgba(0,0,0,0.1);
-}
-
-img{
+.body-container {
+    padding: 25px 120px;
     width: 100%;
 }
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 24px;
+    background-color: white;
+    height: 80px;
+    box-shadow: 2px 8px 20px rgba(0,0,0,0.1);
+    position: sticky;
+    z-index: 1000;
+    top: 0;
+}
+
+.app-logo-container > img{
+    width: 50px;
+    border-radius: 10px;
+}
+
+.nav-bar > ul {
+    display: flex;
+    gap: 30px;
+}
+
+li:hover {
+    cursor: pointer;
+    color: rgb(255, 98, 0);
+}
+
+.nav-bar > ul > li{
+    list-style: none;
+    font-weight: bold;
+}
+
+.res-container{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.res-card{
+    cursor: pointer;
+    max-width: 300px;
+    min-width: 300px;
+    background-color: white;
+}
+
+.res-card-content{
+    padding-left: 12px;
+}
+
+.res-card-content > p{
+    margin: 12px 0;
+    color: rgb(123, 123, 123);
+}
+
+.res-card > img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 14px;
+}
+
+.popular-foods > img{
+    object-fit: cover;
+    width: 144px;
+    height: 180px;
+}
+
+.popular-foods{
+    width: 100px;
+}
+
+.banner-first{
+    display: flex;
+    gap: 60px;
+    overflow-x: hidden;   /* 🔥 enables horizontal scroll */
+    overflow-y: hidden; /* ❌ prevents vertical scroll */
+    scroll-behavior: smooth;
+    margin: 50px 0;
+}
+
+.res-card:hover {
+    transform: scale(0.92); /* slightly smaller */
+}
+
+.res-card {
+    transition: transform 0.2s ease;
+}
+
