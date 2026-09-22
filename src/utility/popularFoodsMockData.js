@@ -1,4 +1,4 @@
-const foodCarousalImg = [
+export const foodCarousalData = [
 {
 "id": "3872256",
 "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/11/20/a8182911-6756-4ec1-8f7f-dc2098a567aa_HomelyPC.png",
@@ -460,5 +460,3 @@ const foodCarousalImg = [
 }
 }
 ];
-
-export default foodCarousalImg;

@@ -1,8 +1,4 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
-import foodCarousalImg from "./data"
-
-const restaurantList = [
+export const restaurantList = [
   {
     "id": "726795",
     "name": "Madras Coffee House",
@@ -236,87 +232,4 @@ const restaurantList = [
     "location": "Washermenpet, Washermenpet",
     "estimatedTimeArrival": "50-60 mins"
   }
-
-]
-
-const Header = () => {
-    return(
-        <div className="header">
-            <div className="app-logo-container">
-                <img alt="app-logo" src="https://img.logo.dev/swiggy.com?token=live_6a1a28fd-6420-4492-aeb0-b297461d9de2&size=512&retina=true&format=png"/>
-            </div>
-            <nav className="nav-bar">
-                <ul>
-                    <li>Offers</li>
-                    <li>Help</li>
-                    <li>Sign In</li>
-                    <li>Cart</li>
-                </ul>
-            </nav>           
-        </div>
-    );
-}
-
-const RestaurantContainer = ({reslist}) => {
-    return (
-        <div className="res-container">{
-            reslist.map(restaurant => {return <RestaurantCard key={restaurant.id} resData={restaurant}/>})}
-        </div>
-    );
-}
-
-const PopularFoodCarousal = (props) => {
-    console.log(props);
-    return(
-        <>
-          <h1>What's on your mind?</h1>
-          <div className="banner-first">  
-            {
-              props.imgCarsoul.map((m, idx) => {return (
-              <div key={idx} className="popular-foods">
-                <img src={`https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/${m.imageId}`}/>
-              </div>) })
-            }
-          <hr/>
-          </div>
-        </>
-    );
-}
-
-
-
-const RestaurantCard = (restaurantData) => {
-    const {imageId, name, rating, cuisines, location, estimatedTimeArrival} = restaurantData?.resData;
-    return (
-        <div className="res-card">
-            <img src={`https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/${imageId}`}/>
-            <div className="res-card-content">
-                <h3>{name}</h3>
-                <h4>{rating+" "+estimatedTimeArrival}</h4>
-                <p>{cuisines.join(", ")}</p>
-                <p>{location.split(",")[1]}</p>
-            </div>
-        </div>
-    );
-}
-
-const Body = () => {
-    return(
-        <div className="body-container">
-            <PopularFoodCarousal imgCarsoul={foodCarousalImg}/>
-            <RestaurantContainer reslist={restaurantList}/>
-        </div>
-    );
-}
-
-const AppLayout = () => {
-    return(
-        <div>
-            <Header/>
-            <Body/>
-        </div>
-    );
-}
-
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<AppLayout/>);
+];
