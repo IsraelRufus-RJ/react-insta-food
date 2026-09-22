@@ -231,5 +231,222 @@ export const restaurantList = [
     "rating": 4.5,
     "location": "Washermenpet, Washermenpet",
     "estimatedTimeArrival": "50-60 mins"
+  },
+{
+"id": "1127208",
+"name": "Trupthi Veg Restaurant",
+"imageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/11/4/f6beea98-4fd4-44b0-8dde-d6df8143fd49_1127208.jpg",
+"cuisines": [
+"Andhra",
+"South Indian",
+"North Indian"
+],
+"rating": 4.4,
+"location": "OMR Navalur, OMR Navalur",
+"estimatedTimeArrival": "20-25 mins"
+},
+{
+"id": "602352",
+"name": "Mani's Dum Biryani",
+"imageId": "uoq41ubhp3wcfeg7mmg1",
+"cuisines": [
+"Andhra",
+"Biryani"
+],
+"rating": 4.5,
+"location": "Semmancheri, Padur",
+"estimatedTimeArrival": "20-25 mins"
+},
+{
+"id": "558083",
+"name": "Geetham Veg restaurant",
+"imageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/12/14/e71e1ced-35f1-430c-b8b9-fb7db7aa0851_558083.jpg",
+"cuisines": [
+"South Indian",
+"Sweets"
+],
+"rating": 4.4,
+"location": "Navalur, Navalur",
+"estimatedTimeArrival": "15-20 mins"
+},
+{
+"id": "64700",
+"name": "Ambur Star Briyani",
+"imageId": "RX_THUMBNAIL/IMAGES/VENDOR/2026/7/12/a755a4fc-c82b-472e-aa63-17031264ad16_64700.JPG",
+"cuisines": [
+"Biryani",
+"South Indian",
+"Indian",
+"Chinese",
+"Tandoor",
+"Beverages"
+],
+"rating": 4.3,
+"location": "Sholinganallur, Sholinganallur",
+"estimatedTimeArrival": "20-25 mins"
+},
+{
+"id": "1012828",
+"name": "California Burrito",
+"imageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/12/23/71d4afd9-f648-478e-b367-ea765e7d88c2_1012828.jpg",
+"cuisines": [
+"Mexican",
+"American",
+"Salads",
+"Continental",
+"Keto",
+"Healthy Food",
+"Beverages",
+"Snacks",
+"Desserts",
+"Fast Food"
+],
+"rating": 4.7,
+"location": "OMR Navalur, OMR Navalur",
+"estimatedTimeArrival": "25-30 mins"
+},
+{
+"id": "104023",
+"name": "Zaitoon",
+"imageId": "3dd95cf5d718da0f33ca7c161d3b1318",
+"cuisines": [
+"Biryani",
+"Arabian",
+"Chinese",
+"Juices",
+"Mughlai",
+"Kebabs"
+],
+"rating": 4.3,
+"location": "Egattur, Egattur",
+"estimatedTimeArrival": "35-45 mins"
+},
+{
+"id": "937183",
+"name": "A2B - Adyar Ananda Bhavan",
+"imageId": "RX_THUMBNAIL/IMAGES/VENDOR/2026/9/18/c8ee990e-c35b-4ee7-9c65-864efc2a7762_937183.jpg",
+"cuisines": [
+"Chinese",
+"South Indian",
+"Sweets"
+],
+"rating": 4.4,
+"location": "OMR Navalur, OMR Navalur",
+"estimatedTimeArrival": "25-30 mins"
+},
+{
+"id": "1171278",
+"name": "KFC",
+"imageId": "RX_THUMBNAIL/IMAGES/VENDOR/2026/7/1/0a48b3b5-9966-4a34-9247-b16535d6c9ba_1171278.JPG",
+"cuisines": [
+"Burgers",
+"Fast Food",
+"Rolls & Wraps"
+],
+"rating": 4.1,
+"location": "Old Mahabalipuram Road, Vivira Mall",
+"estimatedTimeArrival": "15-20 mins"
+},
+ {
+    "id": "32617",
+    "name": "McDonald's",
+    "imageId": "RX_THUMBNAIL/IMAGES/VENDOR/2026/6/18/6dcd20c8-e8be-4a58-b160-718927bebd66_32617.JPG",
+    "cuisines": [
+      "Burgers",
+      "Beverages",
+      "Cafe",
+      "Desserts"
+    ],
+    "rating": 4.1,
+    "location": "Semmancheri, OMR",
+    "estimatedTimeArrival": "15-20 mins"
+  },
+  {
+    "id": "1393538",
+    "name": "Subway",
+    "imageId": "RX_THUMBNAIL/IMAGES/VENDOR/2026/6/18/c39fe0b1-85a8-4f04-a213-3b88843334be_1393538.jpg",
+    "cuisines": [
+      "sandwich",
+      "Salads",
+      "wrap",
+      "Healthy Food"
+    ],
+    "rating": 3.4,
+    "location": "Vivira Mall, Kancheepuram",
+    "estimatedTimeArrival": "20-25 mins"
+  },
+  {
+    "id": "38902",
+    "name": "Domino's Pizza",
+    "imageId": "RX_THUMBNAIL/IMAGES/VENDOR/2026/9/3/27a72a02-c742-460d-8694-659c307c63fe_38902.JPG",
+    "cuisines": [
+      "Pizzas",
+      "Italian",
+      "Pastas",
+      "Desserts"
+    ],
+    "rating": 4.3,
+    "location": "Coromandel Plaza, Old Mamallapuram Road",
+    "estimatedTimeArrival": "20-25 mins"
+  },
+  {
+    "id": "748065",
+    "name": "Burger King",
+    "imageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/3/24/f8567b28-d537-4fc5-8652-168b39f170cf_748065.jpg",
+    "cuisines": [
+      "Burgers",
+      "American"
+    ],
+    "rating": 4.2,
+    "location": "Kancheepuram, OMR Semmanchey",
+    "estimatedTimeArrival": "15-20 mins"
+  },
+  {
+    "id": "1181633",
+    "name": "RNR Biryani - Taste of 1953",
+    "imageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/9/1/922a8ba6-9bdb-4e08-9ca5-57071304939d_1181633.JPG",
+    "cuisines": [
+      "Biryani",
+      "South Indian"
+    ],
+    "rating": 4.2,
+    "location": "OMR Navalur, OMR Navalur",
+    "estimatedTimeArrival": "20-25 mins"
+  },
+  {
+    "id": "587672",
+    "name": "Chaayos Chai+Snacks=Relax",
+    "imageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/4/17/f92c604d-68cb-49db-8dec-9473650c363d_587672.JPG",
+    "cuisines": [
+      "Beverages",
+      "Chaat",
+      "Bakery",
+      "Snacks",
+      "Street Food",
+      "healthy",
+      "Home Food",
+      "Maharashtrian",
+      "Italian",
+      "Desserts"
+    ],
+    "rating": 4.4,
+    "location": "Sholinganallur, VILLAGE HIGH ROAD",
+    "estimatedTimeArrival": "25-30 mins"
+  },
+  {
+    "id": "69226",
+    "name": "Dindigul Thalappakatti - Since 1957",
+    "imageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/9/21/3637845b-45a0-4497-b4b8-5ac5bcba5c37_69226.JPG",
+    "cuisines": [
+      "Biryani",
+      "Barbecue",
+      "South Indian",
+      "Chinese"
+    ],
+    "rating": 4.2,
+    "location": "Navalur, Navalur",
+    "estimatedTimeArrival": "15-20 mins"
   }
+
 ];
+
