@@ -104,3 +104,14 @@ li:hover {
     transition: transform 0.2s ease;
 }
 
+.res-user-config{
+    margin-bottom: 20px;
+}
+
+.res-user-config > button{
+    background-color: white;
+    cursor: pointer;
+    padding: 8px;
+    border: solid 1px grey;
+    border-radius: 10px;
+}
