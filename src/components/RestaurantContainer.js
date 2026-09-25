@@ -1,7 +1,8 @@
 import { useState, useEffect } from "react";
 import RestaurantCard from "./RestaurantCard";
+import Shimmer from "./Shimmer"
 
-const RestaurantContainer = ({reslist}) => {
+const RestaurantContainer = () => {
     const [restaurantList, setRestaurantList] = useState([]);
 
     useEffect(()=>{
@@ -13,6 +14,10 @@ const RestaurantContainer = ({reslist}) => {
         const dataObj = await data.json();
         //console.log(dataObj.data.cards[4].card.card.gridElements.infoWithStyle.restaurants);
         setRestaurantList(dataObj?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
+    }
+
+    if(restaurantList.length === 0){
+        return <Shimmer/>
     }
     
     return (
@@ -27,7 +32,7 @@ const RestaurantContainer = ({reslist}) => {
             </div>
             <div className="res-container">
                 {
-                    restaurantList.map(restaurant => {return <RestaurantCard key={restaurant?.info?.id} resData={restaurant}/>})
+                    restaurantList.map((restaurant) => {return <RestaurantCard key={restaurant?.info?.id} resData={restaurant}/>})
                 }
             </div>
         </div>
