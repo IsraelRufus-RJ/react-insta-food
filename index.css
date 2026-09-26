@@ -102,16 +102,38 @@ li:hover {
 }
 
 .res-user-config{
+    display: flex;
     margin-bottom: 20px;
+    gap: 20px;
 }
 
-.res-user-config > button{
+.filter-btn{
     background-color: white;
     cursor: pointer;
-    padding: 8px;
-    border: solid 1px grey;
-    border-radius: 10px;
+    padding: 8px 16px;
+    border: solid 1px #ddd;
+    border-radius: 25px;
+    outline: none;
 }
+/*
+.search-filter > input{
+    background-color: white;
+    padding: 8px;
+    width: 250px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: solid 1px gray;
+}
+
+.search-filter > button{
+    background-color: white;
+    padding: 8px;
+    width: 75px;
+    border: solid 1px grey;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}*/
 
 .shimmer-container{
     padding-top: 50.6px;
@@ -184,4 +206,57 @@ li:hover {
  .sign-in {
   all: unset;
   cursor: pointer;
+}
+
+
+.search-filter {
+  display: flex;
+  justify-content: center;
+
+}
+
+.search-box {
+  position: relative;
+  width: 350px;
+  
+}
+
+.search-box input {
+  width: 100%;
+  padding: 8px; /* space for button */
+  border-radius: 25px;
+  border: 1px solid #ddd;
+  outline: none;
+  font-size: 14px;
+  padding-left: 20px ;
+}
+
+.search-btn {
+  position: absolute;
+  right: 4px;
+  top: 50%;
+  transform: translateY(-50%);
+
+  width: 30;
+  height: 30;
+  border-radius: 50%;
+  border: none;
+
+  background-color: #ff5200; /* Swiggy orange */
+  color: white;
+  font-size: 16px;
+
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-btn:hover {
+  background-color: #e04800;
+}
+
+.icon {
+  font-size: 22px;   /* bigger icon */
+  line-height: 1;
 }
