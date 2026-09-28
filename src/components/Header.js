@@ -1,11 +1,19 @@
 import {LOGO_URL} from "../utility/constants.js"
-import {useState} from "react";
+import {useState, useEffect} from "react";
 
 const Header = () => {
     //const btnText = "Sign In";
     const [btnText, setBtnText] = useState("Sign In");
 
     console.log("Header Rendered");
+
+    //just for testing
+    //without dependency array -> always executed
+    //with empty dependecy array -> only exec on initial render
+    //with reactive vars -> execute whenever it updates
+    useEffect(()=>{
+        console.log("Use effect From Header!");
+    }, [btnText]);
 
     return(
         <div className="header">
