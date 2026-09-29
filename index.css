@@ -28,7 +28,7 @@ body{
     top: 0;
 }
 
-.app-logo-container > img{
+.app-logo-container > a > img{
     width: 50px;
     border-radius: 10px;
 }
@@ -48,6 +48,22 @@ li:hover {
     font-weight: bold;
 }
 
+.nav-bar > ul > li > a{
+    text-decoration: none;
+}
+
+a,
+a:visited,
+a:active {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+    color: rgb(255, 98, 0);
+}
+
+
 .res-container{
     display: flex;
     gap: 20px;
@@ -60,6 +76,7 @@ li:hover {
     min-width: 300px;
     background-color: white;
     transition: transform 0.2s ease;
+
 }
 
 .res-card-content{
@@ -76,6 +93,7 @@ li:hover {
     height: 200px;
     object-fit: cover;
     border-radius: 14px;
+    filter: drop-shadow(rgba(0, 0, 0, 0.1) 0px 2px 8px);
 }
 
 .popular-foods > img{
@@ -252,10 +270,13 @@ li:hover {
     color: grey;
 }
 
-.generic-error > button{
+.back-btn{
+    margin-top: 25px;
+}
+
+.back-btn > a{
     font-family: serif;
     background-color: #fc8019;
-    margin-top: 25px;
     color: white;
     font-size: 16px;
     font-weight: bold;
@@ -263,4 +284,6 @@ li:hover {
     cursor: pointer;
     border: none;
     letter-spacing: 0.9;
+    width: 120px;
+    text-decoration: none;
 }

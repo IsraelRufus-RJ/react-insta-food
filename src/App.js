@@ -1,6 +1,6 @@
 import ReactDOM from "react-dom/client";
 
-import {createBrowserRouter, RouterProvider} from "react-router";
+import {createBrowserRouter, RouterProvider, Outlet} from "react-router";
 
 import Header from "./components/Header";
 import Body from "./components/Body";
@@ -11,7 +11,7 @@ const AppLayout = () => {
     return(
         <div>
             <Header/>
-            <Body/>
+            <Outlet/>
         </div>
     );
 }
@@ -20,11 +20,17 @@ const appRouterConfig = createBrowserRouter([
     {
         path: "/",
         element: <AppLayout/>,
+        children: [
+            {
+                path: "",
+                element: <Body/>
+            },
+            {
+                path: "about",
+                element: <About/>
+            }
+        ],
         errorElement: <Error/>
-    },
-    {
-        path:"/about",
-        element: <About/>
     }
 ]);
 

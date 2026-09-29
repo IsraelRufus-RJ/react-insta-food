@@ -1,4 +1,4 @@
-import { useRouteError } from "react-router";
+import { useRouteError, Link } from "react-router";
 
 const Error = () => {
     const err = useRouteError();
@@ -9,8 +9,7 @@ const Error = () => {
                 <h1>We'll be back shortly</h1>
                 <p>We are fixing a temporary glitch. Sorry for the inconvenience.</p>
                 <p>{err.status} {err.statusText}</p>
-                <button>Go Back</button>
-                
+                <div className="back-btn"><Link to="/">Go Back</Link></div>
             </div>
         </div>
     );
