@@ -70,7 +70,7 @@ const Shimmer = () => {
             </div>
         </div>
     );
-}
+};
 
 export default Shimmer;
 
